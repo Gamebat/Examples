@@ -1,0 +1,306 @@
+html,body{margin:0;padding:0;width: 100%; }
+
+.center{
+    
+    width: 100%;
+    margin: 0 auto;
+}
+
+body{
+    background: black;
+    /*background-image: url(back4.jpg);*/
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: auto;
+    width: 100%;
+    /* overflow-x:hidden; */
+    padding: 0;
+    display: block;
+    
+} 
+
+h1{
+    color: #50372b;
+    font-style: oblique;
+    font-size: 60px;
+    margin-bottom: -15px;
+}
+
+h2{
+    color: #50372b;
+    font-style: oblique;
+    font-size: 20px;
+}
+
+h3{
+    color: #787878;
+    font-style: oblique;
+    font-size: 30px;
+    margin-bottom: -10px;
+    margin-top: 0px;
+}
+
+p{
+    color: #787878;
+    font-family: 'Arial', regular;
+    font-size: 18px;
+}
+
+a{
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+}
+
+footer p{
+    color: #787878;
+    font-family: 'Arial', regular;
+    font-size: 18px;
+    margin-bottom: -18px
+
+}
+
+header{
+
+    background: white;
+    background-image: url(fon.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: -30px;
+    height: 240px;
+    width: 100%;
+    position: absolute;
+    top:0;
+    z-index: -900;
+    min-width: 290px;
+}
+
+
+
+a{
+	width: 100%;
+	height: 100%;
+	text-align:center;
+    text-decoration: none; /*убираем подчеркивание текста ссылок*/
+    color: white;
+}
+
+.content{
+    background: linear-gradient(to bottom, #ececec, #ffffff);
+    width: 100%;
+    position: absolute;
+    top: 217px;
+    z-index: -1000;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 60px;
+	padding-bottom: 30px;
+
+    box-sizing: border-box;
+    min-width: 290px;
+
+}
+
+.top{
+	
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    height: auto;
+	flex-basis: 100%;
+    border-bottom: 1px solid #787878;
+}
+
+.left{
+    
+    width: 100%;
+    height: 100%;
+    word-break: break-all;
+    overflow: hidden;
+}
+
+.right{
+    margin-left: 5%;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.right img{
+    margin-top: 25px;
+}
+
+.bottom{
+    border-bottom: 12px solid #787878;
+    display: flex;
+	justify-content: space-between;
+    flex-direction: column;
+    margin-top: 10px;
+    width: 100%;
+    min-width: 290px;
+    
+
+}
+
+.one{
+    width: 100%;
+    height: auto;
+    
+}
+
+.two{
+    width: 100%;
+    height: auto;
+
+}
+
+.three{
+    width: 100%;
+    height: auto;
+   
+}
+
+
+footer{
+    height: auto;
+    margin-top: 20px;
+    min-width: 290px;
+    display: flex;
+	justify-content: space-between;
+    flex-direction: column;
+}
+
+
+
+.abc{
+    display: none;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.q{
+    margin-left: 40px;
+    margin-right: 20px;
+}
+
+.b{
+    margin-left: 50px;
+}
+
+.c{
+    margin-left: 50px;
+    padding-left: 10px;
+} 
+
+.dfe{
+    display: none;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.e{
+    margin-left: 130px;
+    margin-right: 50px;
+}
+
+a:hover{
+    color:black;
+}
+
+.natx{
+    position: absolute;
+    background: #b28543;
+    width: 90%;
+    height: 60px;
+    top: 199px;
+    margin-left: 5%;
+    z-index: 1000;
+    display: flex;
+    flex-direction: row;
+    min-width: 290px;
+}
+
+.roga{
+    width: 100%;
+   
+}
+
+.roga p{
+    color: black;
+    text-align: center;
+    font-style: oblique;
+    font-size: 30px;
+    margin: auto;
+    line-height: 55px;
+}
+
+nav{
+    background: #b28543;
+    width: auto;
+    height: auto;
+    z-index: 1000;
+
+}
+
+li{
+    line-height: 50px;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: row;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    list-style: none; /*убираем маркеры списка*/
+    margin: 0; /*убираем верхнее и нижнее поле, равное 1em*/
+    padding-left: 0; /*убираем левый отступ, равный 40px*/
+   
+}
+
+/* Кнопка выпадающего списка */
+.dropbtn {
+  background-color: #3498DB;
+  color: white;
+  padding: 19.5px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Кнопка выпадающего меню при наведении и фокусировке */
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #2980B9;
+}
+
+/* Контейнер <div> - необходим для размещения выпадающего содержимого */
+/* .dropdown {
+  position: relative;
+  display: inline-block;
+} */
+
+/* Выпадающее содержимое (скрыто по умолчанию) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  max-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Ссылки внутри выпадающего списка */
+.dropdown-content a {
+  color: black;
+  background-color: #b28543;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Изменение цвета выпадающих ссылок при наведении курсора */
+.dropdown-content a:hover {background-color: #2980B9}
+
+/* Показать выпадающее меню (используйте JS, чтобы добавить этот класс .dropdown-content содержимого, когда пользователь нажимает на кнопку выпадающего списка) */
+.show {display:block;}

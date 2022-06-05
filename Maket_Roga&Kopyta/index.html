@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" media="screen and (max-width: 550px)" href="max-width480px.css">
+    <link rel="stylesheet" media="screen and (min-width: 551px) and (max-width: 900px)" href="width480px-900px.css">
+	<link rel="stylesheet" media="screen and (min-width: 901px)" href="style.css">
+    <script>
+		function myFunction() {
+		  document.getElementById("myDropdown").classList.toggle("show");
+		}
+
+		// Закройте выпадающее меню, если пользователь щелкает за его пределами
+		window.onclick = function(event) {
+		  if (!event.target.matches('.dropbtn')) {
+			var dropdowns = document.getElementsByClassName("dropdown-content");
+			var i;
+			for (i = 0; i < dropdowns.length; i++) {
+			  var openDropdown = dropdowns[i];
+			  if (openDropdown.classList.contains('show')) {
+				openDropdown.classList.remove('show');
+			  }
+			}
+		  }
+		}
+	</script>
+    <title>Главная</title>
+</head>
+
+<body>
+
+    <div class="center">
+    
+        <header>
+            
+            <div class="abc">
+
+                <div class="q">
+                    <h1>Roga</h1>
+                </div>
+
+                <div class="b">
+                    <h1>&</h1>
+                </div>
+
+                <div class="c">
+                    <h1>Kopyta</h1>
+                </div>
+
+            </div>
+
+            <div class="dfe">
+
+                <div class="d">
+                    <p>International worldwide cooperation</p>
+                </div>
+
+                <div class="e">
+                    <p>for horns and hooves storage</p>
+                </div>
+
+            </div>
+        </header>
+
+        <div class="natx">
+            <nav class="dropdown">
+                <button onclick="myFunction()" class="dropbtn">&#9776</button>
+                <ul id="myDropdown" class="dropdown-content">
+                    <li><a href="#">HORNS STORAGE</a></li>
+                    <li><a href="#">HOOVES STORAGE</a></li>
+                    <li><a href="#">OUR ACHIEVMENTS</a></li>
+                    <li><a href="#">SEASON PRICES</a></li>
+                    <li><a href="#">CONTACTS</a></li>
+                </ul>
+            </nav>
+            <div class="roga">
+                <p>Roga & Kopyta</p>
+            </div>
+        </div>
+
+        <div class="content">
+            <section class="top">
+
+                <div class="left">
+                    <h2>Our history</h2>
+                    <p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium 
+                        doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore 
+                        veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam 
+                        voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur 
+                        magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam 
+                        est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non 
+                        numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat 
+                        voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis 
+                        suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum
+                        iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, 
+                        vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
+                    </p>
+
+                </div>
+
+                <div class="right">
+                    <img src="pic.png">
+                </div>
+
+            </section>
+
+            <section class="bottom">
+
+                <div class="one">
+                    <h2>Horns</h2>
+                    <p>"Sed ut perspiciatis unde omnis iste 
+                        natus error sit voluptatem accusantium 
+                        doloremque laudantium, totam rem 
+                        aperiam, eaque ipsa quae ab illo 
+                        inventore veritatis et quasi architecto 
+                        beatae vitae dicta sunt explicabo. Nemo 
+                        enim ipsam voluptatem quia voluptas sit 
+                        aspernatur aut odit aut fugit, sed quia 
+                        consequuntur magni dolores eos qui 
+                        ratione voluptatem sequi nesciunt. </p>
+                </div>
+
+                <div class="two">
+                    <h2>Hooves</h2>
+                    <p>"Sed ut perspiciatis unde omnis iste 
+                        natus error sit voluptatem accusantium 
+                        doloremque laudantium, totam rem 
+                        aperiam, eaque ipsa quae ab illo 
+                        inventore veritatis et quasi architecto 
+                        beatae vitae dicta sunt explicabo. Nemo 
+                        enim ipsam voluptatem quia voluptas sit 
+                        aspernatur aut odit aut fugit, sed quia 
+                        consequuntur magni dolores eos qui 
+                        ratione voluptatem sequi nesciunt. </p>
+                </div>
+
+                <div class="three">
+                    <h2>Achievments</h2>
+                    <p>"Sed ut perspiciatis unde omnis iste 
+                        natus error sit voluptatem accusantium 
+                        doloremque laudantium, totam rem 
+                        aperiam, eaque ipsa quae ab illo 
+                        inventore veritatis et quasi architecto 
+                        beatae vitae dicta sunt explicabo. Nemo 
+                        enim ipsam voluptatem quia voluptas sit 
+                        aspernatur aut odit aut fugit, sed quia 
+                        consequuntur magni dolores eos qui 
+                        ratione voluptatem sequi nesciunt. </p>
+                </div>
+
+            </section>
+
+            <footer>
+                <div class="text">
+                    <h3>Roga & Kopyta</h3>
+                    <p>International worlwide cooperation for horns and hooves storage</p>
+                    <p>(c) 2013. All rights reserved</p>
+                </div>
+            </footer>
+                
+        </div>
+        
+
+        
+
+    </div>
+    
+</body>
+</html>

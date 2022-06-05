@@ -1,0 +1,1079 @@
+@font-face {
+	font-family: 'Lobster'; 
+	src: url('./fonts/Lobster_1.0_.ttf') format('truetype'); 
+}
+
+@font-face {
+	font-family: 'Lobster 1.0'; 
+	src: url('./fonts/Lobster_1.0_.ttf') format('truetype'); 
+}
+@font-face {
+	font-family: 'Myriad Pro Light'; 
+	src: url('./fonts/MyriadPro-Semibold.ttf') format('truetype'); 
+}
+@font-face {
+	font-family: 'Aaux OfficeBold'; 
+	src: url('./fonts/AauxOffice-Bold.ttf') format('truetype'); 
+}
+@font-face {
+	font-family: 'DIN Mittelschrift Std'; 
+	src: url('./fonts/DINMittelschriftStd.ttf') format('truetype'); 
+}
+@font-face {
+	font-family: 'arialbi'; 
+	src: url('./fonts/arialbi.ttf') format('truetype'); 
+}
+@font-face {
+	font-family: 'arial'; 
+	src: url('./fonts/arial.ttf') format('truetype'); 
+}
+@font-face {
+	font-family: 'ariali'; 
+	src: url('./fonts/ariali.ttf') format('truetype'); 
+}
+
+
+
+
+
+html,body{margin:0;padding:0;}
+body{
+    background: #121212;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: auto;
+    padding: 0;
+}
+
+.center{
+    width: 1250px;
+    background: white;
+    margin: auto;
+}
+
+h1{
+    padding: 0;
+    margin: 0;
+    font-family: 'Lobster'; 
+    font-size: 40px;
+}
+
+.dropbtn{
+	display:none;
+}
+
+h2{
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    
+}
+
+h3{
+    margin: 0;
+    padding: 0;
+    color: #afadad83;
+    font-size: 12px;
+    margin-top: -8px;
+    margin-left: 50px;
+}
+
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background: linear-gradient(to top, #f3f3f3 5%, #ffffff);
+    padding-bottom: 2em;
+
+}
+
+.LB h1{
+    margin-top: 35px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 15%;
+	
+    
+}
+
+
+.LB img{
+    height: 49px;
+    width: 49px;
+    margin:40px auto auto auto;
+    
+}
+
+.LB{
+	display:flex;
+	flex-direction:row;
+}
+
+.BS{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.labrador{
+    padding-right: 5px;
+    height: 50px;
+}
+
+.breeder h1{
+    color: #64c1d2;
+}
+.since h3{
+    font-family: 'Myriad Pro Light'; 
+}
+
+
+nav{
+    font-family: 'DINMittelschriftStd'; 
+    background: none;
+    margin-top: 50px;
+    height: 30px;
+    width: 50%;
+    text-transform: uppercase;/*Пункты меню заглавными буквами*/
+}
+
+li{
+    width: 20%;
+    height: auto;
+    background: white;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: row;
+    box-shadow: 1px 2px 0px rgba(26, 26, 26, 0.2);
+    margin-right: 30px;
+    border-radius: 6px;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    list-style: none; /*убираем маркеры списка*/
+    margin: 0; /*убираем верхнее и нижнее поле, равное 1em*/
+    padding-left: 0; /*убираем левый отступ, равный 40px*/
+   
+}
+
+a{
+    font-size: 13px;
+    text-decoration: none;
+    color: #707386;
+    text-align: center;
+    margin: auto;
+    font-family: 'DIN Mittelschrift Std';
+}
+
+
+.top{
+	border-top: 1px dashed black;
+	border-bottom: 1px dashed black;
+    padding-top: 4%;
+    padding-left: 9%;
+    height: auto;
+    min-height: 390px;
+    
+    background-repeat: no-repeat;
+    background-position: top right;
+    box-shadow: 0px -15px 0px -5px #e6e7e7 inset;
+    background-image: linear-gradient(130deg, rgb(185, 224, 231) 0%, rgba(255,255,255,0) 20%), url(fon.jpg);
+}
+.one{
+    border-top-left-radius: 10px;
+    background: linear-gradient(140deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 30%);
+    display: flex;
+    width: 450px;
+    height: 10%;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    margin-top: -10px;
+}
+.one p{
+    text-transform: uppercase;
+    font-size: 12px;
+}
+.texto{
+    display: flex;
+    flex-direction: row;
+  
+  
+}
+.texto h2{
+    word-break: keep-all;
+    font-weight: 500;
+    font-family: 'Aaux OfficeBold'; 
+}
+.blockrow{
+    flex-direction: column;
+}
+
+.textP{
+    margin-top: -14px;
+    font-family: 'Myriad Pro Light'; 
+    color: #d6d6d6;
+    width: 350px;
+    padding-right: 33px;
+}
+
+.r_img{
+    margin-right: 12px;
+}
+.two{
+    display: flex;
+    padding: 20px 20px 0px 20px;
+    width: 30%;
+    height: 70px;
+    background: linear-gradient(30deg, #b3d409 3%, #92c000 20%);
+    box-shadow: -1px 0px 0px 0px #81a900;
+    margin-top: 15px;
+}
+.two p{
+    font-family: 'arial'; 
+    font-size: 12px;
+    text-decoration: underline;
+    color: rgba(255, 255, 255, 0.904);
+    line-height: 18px;
+    margin-top: 5px;
+}
+.textw{
+    display: flex;
+    flex-direction: row;
+    margin-top: -35px;
+}
+
+.textw h2{
+    font-size: 37px;
+    font-weight: 500;
+    font-family: 'Lobster 1.0'; 
+}
+
+.middle{
+    background: #92c000;
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 9.2%;
+    height: 110px;
+    box-shadow: 0px -15px 0px -5px #8db802 inset;
+	border-bottom: 1px dashed black;
+}
+
+.arrows{
+    background-image: url(Page-Border.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-x: 300px;
+    display: flex;
+    box-shadow: 3.5px 0px 3px -5px rgba(34, 60, 80, 1);
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.aftermiddle{
+    display: flex;
+    flex-direction: row;
+    /* background: #fafafa; */
+    margin-left: 9.2%;
+    margin-right: 5%;
+    padding-bottom: 60px;
+}
+.amshadow{
+    padding-bottom: 50px;
+    margin: 0;
+    padding: 0;
+    box-shadow: 0px -18px 0px -11px #797878 inset;
+}
+
+.aftermiddle h2{
+    font-family:'Aaux OfficeBold';
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 500;
+    
+}
+
+
+
+.welcome{
+    width: 48%;
+    padding-top: 35px;
+    padding-right: 25px;
+    background: #fafafa;
+}
+
+.welcome h2{
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+.o{
+    display: flex;
+    flex-direction: row;
+    background: #f4f7e2;
+    height: 50px;
+    margin: 0;
+    padding: 15px 25px 10px 0;
+}
+
+.o p{
+    font-family: 'Myriad Pro Light';
+    margin: 0;
+    font-size: 9pt;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+    color: #7b7e7b;
+    line-height: 15px;
+}
+
+
+.m_img{
+    margin: auto;
+    padding: 0px 15px 0px 15px;
+}
+
+.tw{
+    margin-left: 13px;
+    height: 70px;
+    margin-bottom: 25px;
+	border-bottom: 1px dashed black;
+}
+
+.tw p{
+    font-family: 'arial';
+    font-size: 10pt;
+    color: #4c4c4c;
+    line-height: 20px;
+    margin-bottom: 0px;
+}
+.tw a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    color: #4c4c4c;
+    line-height: 20px;
+    text-decoration: underline;
+    pointer-events: none; 
+    cursor: default;
+}
+
+.th{
+    margin: 0 0 0 15px;
+	border-bottom: 1px dashed black;
+}
+.th-flex{
+    display: flex;
+    flex-direction: row;
+}
+
+.th-row{
+    margin: auto 17px;
+}
+
+.th-row h3{
+    margin: 0;
+    color: #e94d69;
+    font-family: 'arialbi';
+    font-size: 11pt;
+    font-weight: 900;
+    margin-bottom: 3px;
+}
+
+.th-row p{
+    margin: 0;
+    line-height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+}
+
+.four{
+    margin-left: 37px;
+    margin-top: 17px;
+}
+
+.four p{
+    margin: 0;
+    margin-left: 15px;
+    text-decoration: underline;
+    font-family: 'ariali';
+    font-size: 10pt;
+}
+
+.dia_img{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    
+}
+.dia_img img{
+    height: 15px;
+    width: 16px;
+}
+
+.lic_img{
+    display: flex;
+    flex-direction: row;
+}
+.lic_img img{
+    height: 15px;
+    width: 16px;
+}
+
+.b-right{
+    width: 50%;
+    padding-left: 25px;
+    padding-top: 35px;
+    background: #fafafa;
+}
+
+.textam{
+    display: flex;
+    flex-direction: row;
+}
+
+.textslip p{
+    margin-top: -5px;
+    line-height: 11px;
+    font-family: 'Myriad Pro Light';
+    font-size: 10pt;
+    text-transform: uppercase;
+    color: #6f736f;
+}
+
+.puppies{
+    margin-bottom: 20px;
+    padding-bottom: 27px;
+    box-shadow: 0px 20px 19px -13px rgba(34, 60, 80, 0.2);
+    background: #fafafa;
+    position: relative;
+	border-bottom: 1px dashed black;
+}
+
+
+.bott{
+    display: flex;
+    flex-direction: row;
+    background: linear-gradient(0deg, rgba(0,0,0,1) 6%, rgba(73,73,73,1) 100%);
+    padding-left: 9.2%;
+    padding-right: 9.2%;
+}
+
+.col-left{
+    width: 50%;
+}
+
+.col-right{
+    width: 50%;
+}
+
+.top_show{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 19px;
+}
+
+.col_left-textH{
+    margin-top: 15px;
+    margin-left: -35px;
+}
+
+.col_left-textH h3{
+    font-family: 'Aaux OfficeBold';
+    font-size: 44px;
+    color: white;
+    font-weight: 400;
+    margin: 0;
+}
+
+.col_left-textH p{
+    margin-top: -8px;
+    text-transform: uppercase;
+    color:#6f736f;
+    font-size: 10pt;
+    font-family: 'Myriad Pro Light';
+}
+
+.pp_img{
+    background-image: url(icon_puppy.png);
+    background-repeat: no-repeat;
+    margin-top: -36px;
+    width: 200px;
+    height: 118px;
+    box-shadow: -6px -63px 7px -55px rgba(0, 0, 0, 0.2) inset;
+}
+
+.tx{
+    display: flex;
+    flex-direction: row;
+    padding: 10px 0 0px 17px;
+}
+.tx img{
+    height: 16px;
+    width: 15px;
+    
+}
+.tx p{
+    margin: 0 0 0 20px;
+    line-height: 13px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+}
+
+.pp2_img{
+    background-image: url(bones.png);
+    background-repeat: no-repeat;
+    margin-top: -36px;
+    width: 200px;
+    height: 118px;
+    box-shadow: -6px -63px 7px -55px rgba(0, 0, 0, 0.2) inset;
+}
+
+
+.next {
+	border-bottom: 1px dashed white;
+	padding-bottom:10px;
+}
+
+.last-right{
+    display: flex;
+    flex-direction: row;
+}
+
+.last-top{
+    display: flex;
+    flex-direction: column;
+}
+
+.upper{
+    display: flex;
+    flex-direction: row;
+}
+
+.under{
+    margin: auto;
+    margin-top: 20px;
+}
+
+footer{
+    color:#888888;
+    margin: auto;
+    padding-bottom: 15px;
+}
+
+footer h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16pt;
+    margin-bottom: 5px;
+}
+footer p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.tem{
+    width: 57%;
+    height: 250px;
+    padding-left: 30px;
+}
+
+
+
+.tem h3{
+    color: #b0d236;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11pt;
+    margin: 20px 0 20px 0;
+    line-height: 22px;
+}
+
+.tem p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    color:#ffffff;
+    line-height: 23px;
+}
+
+.last-right{
+    width: 97%;
+    background: url(img.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.send input[name=send] {
+    
+    color: #707386;
+    font-size: 15px;
+    font-family: 'DIN Mittelschrift Std';
+    
+    text-decoration: none;
+    
+    background-color:white;
+    border-radius: 20px;
+    
+    transition-duration: .2s;
+    -webkit-transition-duration: .2s;
+    -moz-transition-duration: .2s;
+    
+    /* background-color: inherit; */
+    padding: 4px 13px;
+}
+  
+.send input[name=send]:hover {
+
+    color:white;
+    background-color:black;
+    
+    transition-duration: .2s;
+    -webkit-transition-duration: .11s;
+    -moz-transition-duration: .2s;
+}
+
+
+
+
+@media screen and (max-width: 1200px) {
+    .center{
+        width: 100%;
+    }
+
+
+}
+
+
+@media screen and (max-width: 480px){
+    /* .top{
+        background-position: center;
+    } */
+    nav{
+        
+        background: #81f1f7;
+        width: auto;
+        height: 20px;
+        z-index: 1000;
+		margin-left:20px;
+		margin-right:20px;
+		margin-top:30px;
+    }
+	.textam{
+        display: block;
+        flex-direction: row;
+    }
+	header{
+		justify-content:left;
+	}
+    .welcome{
+        width: 100%;
+        background-color: white;
+    }
+
+    .b-right{
+        width: 100%;
+        background-color: white;
+    }
+
+    .upper{
+        flex-direction: column;
+    }
+
+    .col-left{
+        width: 100%;
+        padding-bottom: 50px;
+    }
+
+    .col-right{
+        width: 100%;
+    }
+
+    .aftermiddle{
+        
+        margin-left: 5%;
+    }
+
+    .th-flex{
+        flex-direction: column;
+    }
+
+    .d_img{
+        padding-left: 5%;
+    }
+
+    .top-left{
+        margin-top: 50px;
+    }
+
+    .center{
+        width: 100%;
+    }
+    .arrows{
+        width: 100%;
+        background-position-x:50% ;
+    }
+    .LB{
+        margin: auto;
+        padding-left: 0;
+        display: block;
+        flex-direction: row;
+    }
+
+    header{
+        flex-direction: row-reverse;
+      
+    }
+   
+    .texto h2{
+        display: block;
+        flex-direction: row;
+        word-break: break-all;
+        font-weight: 500;
+        font-family: 'Aaux OfficeBold'; 
+    }
+    .textP{
+        margin-top: -14px;
+        font-family: 'Myriad Pro Light'; 
+        color: #d6d6d6;
+        width: 100%;
+        padding-right: 33px;
+    }
+    li{
+        line-height: 50px;
+        display: flex;
+        flex-grow: 1;
+        flex-direction: row;
+        width: 100%;
+    }
+    
+    ul{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: auto;
+        list-style: none; /*убираем маркеры списка*/
+        margin: 0; /*убираем верхнее и нижнее поле, равное 1em*/
+        padding-left: 0; /*убираем левый отступ, равный 40px*/
+       
+    }
+    
+    /* Кнопка выпадающего списка */
+    .dropbtn {
+		display:flex;
+      background-color: #64c1d2;
+      color: white;
+      padding: 19.5px;
+      font-size: 16px;
+      border: none;
+      cursor: pointer;
+	  margin-top:2px;
+	  
+    }
+    
+    /* Кнопка выпадающего меню при наведении и фокусировке */
+    .dropbtn:hover, .dropbtn:focus {
+      background-color: #64c1d2;
+    }
+    
+    /* Контейнер <div> - необходим для размещения выпадающего содержимого */
+    /* .dropdown {
+      position: relative;
+      display: inline-block;
+    } */
+    
+    /* Выпадающее содержимое (скрыто по умолчанию) */
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f1f1f1;
+      max-width: 70%;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+    
+    /* Ссылки внутри выпадающего списка */
+    .dropdown-content a {
+      color: black;
+      background-color: #abaaa7;
+      padding: 0 20px 0px 20px;
+      text-decoration: none;
+      display: block;
+      width: 400px;
+    }
+    
+    /* Изменение цвета выпадающих ссылок при наведении курсора */
+    .dropdown-content a:hover {background-color: #29a8b9}
+    
+    /* Показать выпадающее меню (используйте JS, чтобы добавить этот класс .dropdown-content содержимого, когда пользователь нажимает на кнопку выпадающего списка) */
+    .show {display:block;}
+
+    .middle{
+        flex-direction: column;
+        height: auto;
+    }
+
+    .aftermiddle{
+        flex-direction: column;
+    }
+    .th::after{
+        content: "";
+    }
+    .tw::after{
+        content: "";
+    }
+    .puppies::after{
+        content: "";
+    }
+    .next::after{
+        content: "";
+    }
+
+    .bott{
+        flex-direction: column;
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+	
+	footer{
+		margin-top: 20px;
+	}
+
+    footer h4{
+        font-size: 12pt;
+    }
+	
+	
+	.welcome{
+		max-width:100%;
+	}
+	
+    footer p{
+        font-size: 10pt;
+    }
+
+    .one{
+        width: 90%;
+        background: linear-gradient(140deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0.5) 30%);
+    }
+
+    .textP p{
+        color:black;
+		width:auto;
+		padding-right:0;
+        width: 100%;
+    }
+
+    .top{
+        padding-left: 0;
+    }
+    
+   
+
+}
+
+
+
+@media screen and (min-width: 480px) and (max-width: 1024px){
+    nav{
+        margin: 30px 10px auto 5%;
+        background: #b28543;
+        width: auto;
+        height: auto;
+        z-index: 1000;
+		
+    }
+	
+	.LB{
+		padding:0;
+		margin:0;
+		margin-top:-20px;
+	}
+
+	.two{
+		width:auto;
+	}
+    .welcome{
+        width: 100%;
+        background-color: white;
+    }
+
+    .b-right{
+        width: 100%;
+        background-color: white;
+    }
+
+    .upper{
+        flex-direction: column;
+    }
+
+    .col-left{
+        width: 100%;
+        padding-bottom: 50px;
+    }
+
+    .col-right{
+        width: 100%;
+    }
+
+    .aftermiddle{
+        
+        margin-left: 5%;
+    }
+
+    .th-flex{
+        flex-direction: column;
+    }
+
+    .d_img{
+        padding-left: 5%;
+    }
+
+  
+
+    .center{
+        width: 100%;
+    }
+
+    .LB{
+        margin: auto;
+        padding-left: 0;
+    }
+
+    header{
+        flex-direction: row-reverse;
+      
+		justify-content:left;
+    }
+    
+    li{
+        line-height: 50px;
+        display: flex;
+        flex-grow: 1;
+        flex-direction: row;
+        width: 100%;
+    }
+    
+    ul{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: auto;
+        list-style: none; /*убираем маркеры списка*/
+        margin: 0; /*убираем верхнее и нижнее поле, равное 1em*/
+        padding-left: 0; /*убираем левый отступ, равный 40px*/
+       
+    }
+    
+    /* Кнопка выпадающего списка */
+    .dropbtn {
+	  display:flex;
+      background-color: #64c1d2;
+      color: white;
+      padding: 19.5px;
+      font-size: 16px;
+      border: none;
+      cursor: pointer;
+	  
+    }
+    
+    /* Кнопка выпадающего меню при наведении и фокусировке */
+    .dropbtn:hover, .dropbtn:focus {
+      background-color: #64c1d2;
+    }
+    
+    /* Контейнер <div> - необходим для размещения выпадающего содержимого */
+    /* .dropdown {
+      position: relative;
+      display: inline-block;
+    } */
+    
+    /* Выпадающее содержимое (скрыто по умолчанию) */
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f1f1f1;
+      max-width: 70%;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+    
+    /* Ссылки внутри выпадающего списка */
+    .dropdown-content a {
+      color: black;
+      background-color: #abaaa7;
+      padding: 0 20px 0px 20px;
+      text-decoration: none;
+      display: block;
+      width: 400px;
+    }
+    
+    /* Изменение цвета выпадающих ссылок при наведении курсора */
+    .dropdown-content a:hover {background-color: #29a8b9}
+    
+    /* Показать выпадающее меню (используйте JS, чтобы добавить этот класс .dropdown-content содержимого, когда пользователь нажимает на кнопку выпадающего списка) */
+    .show {display:block;}
+
+    .middle{
+        flex-direction: row;
+        height: auto;
+		flex-wrap:wrap;
+		justify-content:space-around;
+    }
+
+	.two{
+		width:315px;
+	}
+    .aftermiddle{
+        flex-direction: column;
+    }
+    .th::after{
+        content: "";
+    }
+    .tw::after{
+        content: "";
+    }
+    .puppies::after{
+        content: "";
+    }
+    .next::after{
+        content: "";
+    }
+
+    .bott{
+        flex-direction: column;
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+
+    footer h4{
+        font-size: 12pt;
+    }
+
+    footer p{
+        font-size: 10pt;
+    }
+
+    .one{
+		margin: 0px auto auto auto;
+        width: 450px;
+        background: linear-gradient(140deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0.5) 30%);
+    }
+
+    .textP p{
+        color:black;
+        width: 100%;
+    }
+
+    .top{
+        padding-left: 0;
+    }
+    
+
+}
